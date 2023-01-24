@@ -1,13 +1,21 @@
-# Sample Hardhat Project
+# Hardhat Project starter pack
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+A starter pack for using Hardhat in your Ethereum development.
 
-Try running some of the following tasks:
+## Installation
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+1. Clone the repository: `git clone https://github.com/bllagoje/hardhat-starter-pack.git`
+2. Install the dependencies: `yarn install`
+
+## Usage
+
+1. Start a local blockchain with Hardhat: `yarn hardhat node`
+2. Compile your contracts: `yarn hardhat compile`
+3. Deploy your contracts to the local blockchain: `yarm hardhat deploy`
+4. Run your tests: `yarn hardhat test`
+
+## Included Features
+
+- Example contract and test
+- Solidity linter (using Solhint)
+- Hardhat Network for easily managing your local blockchain
